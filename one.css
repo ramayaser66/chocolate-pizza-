@@ -1,60 +1,153 @@
-.odai {
-  overflow: hidden;
-  background-color: #333;
-}
-.odai a {
-  float: right;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-.odai a :hover {
-  background-color: #ddd;
-  color: black;
+
+header nav {
+  display: flex;
 }
 
-header {
+header nav img {
+  margin: 10px;
+}
+
+.header {
+  margin: 10px;
+  flex: 33.33%;
+}
+
+.title {
+  font-family: 'Yellowtail', cursive;
+}
+
+.header h6 {
+  color: grey;
+  text-transform: uppercase;
+}
+
+.icons ul {
+  padding: 15px;
+  float: right;
+}
+
+.icons ul li {
+  list-style: none;
+  text-align: end;
+  float: right;
+}
+
+.icons ul li img {
+  margin: 1px;
+}
+
+.sepaerat {
+  margin-left: 12px;
+}
+
+.line {
+  width: 95%;
+  height: 10px;
+  background-color: grey;
   display: block;
+  margin-top: 5px;
+  margin-bottom:5px;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-  margin-top: 3%;
-  width: fit-content;
-}
-section {
-  display: inline;
-  margin-left: 180px;
-  align-items: flex-end;
-  margin-top: 100px;
-  position: sticky;
-  width: 29%;
-}
-article {
-  text-align: center;
 }
 
-main {
-  width: auto;
-  height: auto;
-  margin: 20px;
+.main h1 {
+  font-family: 'Anton', sans-serif;
+  margin: 20px 20px 0px 20px;
+}
+
+.main h6 {
+  color: grey;
+  text-transform: uppercase;
+  margin: 0px 20px 5px 20px;
+}
+
+.main ul {
+  list-style: none;
   position: relative;
+  float: right;
+  bottom: 20px;
+  margin-right: 10px;
+  margin-bottom: 20px;
 }
 
-footer {
-  background-color: #333;
-  text-align: center;
-  height: 100px;
+.main-image img {
+  width: 95%;
+  display: block;
+  margin-left: 3%;
+  height: 20%;
+  margin-bottom: 2%;
 }
 
-h6 {
-  text-align: center;
+.main-text {
+  width: 90%;
+  margin: 2%;
 }
 
-h1 {
-  text-align: center;
+.main-text p {
+  margin-left: 7%;
+  padding: 15px;
+  line-height: 1;
+  font-family: 'Merriweather', serif;
+  color: gray;
 }
-three {
-  text-align: center;
+
+.list {
+
+  background-image: url("images/list-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  margin: 30px;
+  height: 250px;
+
+  
+}
+
+.list form{
+  display: inline-block;
+  margin-top: 40px;
+  margin-left: 300px;
+  font-size: 20px;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+.containre{
+
+  display: inline-flex;
+}
+.image-container{
+
+  margin: 10px 0px 10px 90px;
+}
+.text-container {
+  width: 50%;
+
+  margin : 20px 0px 10px 100px;
+  
+}
+.text-container p{
+  word-wrap:break-word;
+  white-space: normal;
+  justify-content: center;
+}
+.button-container button{
+  background:#8f4b37;
+  width: 200px;
+  height: 60px;
+  margin: 20px 20px 20px 200px ;
+  font-size: 18px;
+  font-weight: bold;
+  color:white;
+  border: 0px solid #000;
+
+}
+.footer{
+  display: block;
+ text-align: center;
+ margin-bottom: 30px;
+ margin-top: 30px;
+}
+.footer p{
+  color: gray;
 }
